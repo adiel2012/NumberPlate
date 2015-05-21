@@ -1,0 +1,28 @@
+﻿Build started 21/05/2015 9:03:04.
+     1>Project "D:\Adiel\ECUADOR\NUMBERPLATE\np\np\np.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\Adiel\ECUADOR\NUMBERPLATE\np\packages\OpenCV.2.4.10\build\native\../../build/native/include/ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D HAS_OPENCV /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\np.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt OCR.cpp
+         OCR.cpp
+     1>d:\adiel\ecuador\numberplate\np\np\ocr.cpp(53): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\adiel\ecuador\numberplate\np\np\ocr.cpp(54): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\adiel\ecuador\numberplate\np\np\ocr.cpp(69): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\adiel\ecuador\numberplate\np\np\ocr.cpp(73): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\adiel\ecuador\numberplate\np\np\ocr.cpp(76): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\adiel\ecuador\numberplate\np\np\ocr.cpp(78): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\adiel\ecuador\numberplate\np\np\ocr.cpp(152): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\adiel\ecuador\numberplate\np\np\ocr.cpp(359): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Adiel\ECUADOR\NUMBERPLATE\np\Debug\np.exe" /INCREMENTAL /NOLOGO D:\Adiel\ECUADOR\NUMBERPLATE\np\packages\OpenCV.2.4.10\build\native\../../build/native/lib/Win32/v120/Debug/opencv_videostab2410d.lib D:\Adiel\ECUADOR\NUMBERPLATE\np\packages\OpenCV.2.4.10\build\native\../../build/native/lib/Win32/v120/Debug/opencv_video2410d.lib D:\Adiel\ECUADOR\NUMBERPLATE\np\packages\OpenCV.2.4.10\build\native\../../build/native/lib/Win32/v120/Debug/opencv_ts2410d.lib D:\Adiel\ECUADOR\NUMBERPLATE\np\packages\OpenCV.2.4.10\build\native\../../build/native/lib/Win32/v120/Debug/opencv_superres2410d.lib D:\Adiel\ECUADOR\NUMBERPLATE\np\packages\OpenCV.2.4.10\build\native\../../build/native/lib/Win32/v120/Debug/opencv_stitching2410d.lib D:\Adiel\ECUADOR\NUMBERPLATE\np\packages\OpenCV.2.4.10\build\native\../../build/native/lib/Win32/v120/Debug/opencv_photo2410d.lib D:\Adiel\ECUADOR\NUMBERPLATE\np\packages\OpenCV.2.4.10\build\native\../../build/native/lib/Win32/v120/Debug/opencv_ocl2410d.lib D:\Adiel\ECUADOR\NUMBERPLATE\np\packages\OpenCV.2.4.10\build\native\../../build/native/lib/Win32/v120/Debug/opencv_objdetect2410d.lib D:\Adiel\ECUADOR\NUMBERPLATE\np\packages\OpenCV.2.4.10\build\native\../../build/native/lib/Win32/v120/Debug/opencv_nonfree2410d.lib D:\Adiel\ECUADOR\NUMBERPLATE\np\packages\OpenCV.2.4.10\build\native\../../build/native/lib/Win32/v120/Debug/opencv_ml2410d.lib D:\Adiel\ECUADOR\NUMBERPLATE\np\packages\OpenCV.2.4.10\build\native\../../build/native/lib/Win32/v120/Debug/opencv_legacy2410d.lib D:\Adiel\ECUADOR\NUMBERPLATE\np\packages\OpenCV.2.4.10\build\native\../../build/native/lib/Win32/v120/Debug/opencv_imgproc2410d.lib D:\Adiel\ECUADOR\NUMBERPLATE\np\packages\OpenCV.2.4.10\build\native\../../build/native/lib/Win32/v120/Debug/opencv_highgui2410d.lib D:\Adiel\ECUADOR\NUMBERPLATE\np\packages\OpenCV.2.4.10\build\native\../../build/native/lib/Win32/v120/Debug/opencv_gpu2410d.lib D:\Adiel\ECUADOR\NUMBERPLATE\np\packages\OpenCV.2.4.10\build\native\../../build/native/lib/Win32/v120/Debug/opencv_flann2410d.lib D:\Adiel\ECUADOR\NUMBERPLATE\np\packages\OpenCV.2.4.10\build\native\../../build/native/lib/Win32/v120/Debug/opencv_features2d2410d.lib D:\Adiel\ECUADOR\NUMBERPLATE\np\packages\OpenCV.2.4.10\build\native\../../build/native/lib/Win32/v120/Debug/opencv_core2410d.lib D:\Adiel\ECUADOR\NUMBERPLATE\np\packages\OpenCV.2.4.10\build\native\../../build/native/lib/Win32/v120/Debug/opencv_contrib2410d.lib D:\Adiel\ECUADOR\NUMBERPLATE\np\packages\OpenCV.2.4.10\build\native\../../build/native/lib/Win32/v120/Debug/opencv_calib3d2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Adiel\ECUADOR\NUMBERPLATE\np\Debug\np.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Adiel\ECUADOR\NUMBERPLATE\np\Debug\np.lib" /MACHINE:X86 Debug\DetectRegions.obj
+         Debug\evalOCR.obj
+         Debug\np.obj
+         Debug\OCR.obj
+         Debug\Plate.obj
+         Debug\stdafx.obj
+         Debug\trainOCR.obj
+         Debug\trainSVM.obj
+         np.vcxproj -> D:\Adiel\ECUADOR\NUMBERPLATE\np\Debug\np.exe
+     1>Done Building Project "D:\Adiel\ECUADOR\NUMBERPLATE\np\np\np.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.88
